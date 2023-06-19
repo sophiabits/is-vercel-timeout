@@ -1,0 +1,30 @@
+{
+  "name": "is-vercel-timeout",
+  "version": "1.0.0",
+  "description": "Determine whether an error is caused by a Vercel function timeout",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "rimraf lib && tsc",
+    "prepare": "npm run build"
+  },
+  "files": [
+    "lib",
+    "package.json",
+    "README.md"
+  ],
+  "keywords": [
+    "next.js",
+    "timeout",
+    "vercel"
+  ],
+  "author": "Sophia Willows <hello@sophiabits.com> (https://sophiabits.com/)",
+  "license": "MIT",
+  "bugs": "https://github.com/sophiabits/is-vercel-timeout/issues",
+  "repository": "github:sophiabits/is-vercel-timeout",
+  "devDependencies": {
+    "prettier": "^2.8.8",
+    "rimraf": "^5.0.1",
+    "typescript": "^5.1.3"
+  }
+}
