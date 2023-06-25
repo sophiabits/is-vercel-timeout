@@ -1,6 +1,6 @@
 {
   "name": "is-vercel-timeout",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Determine whether an error is caused by a Vercel function timeout",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
